@@ -2,7 +2,6 @@ import qrcode
 
 def generate_qrcode(text):
 #def generate_qrcode(img):
-    
     qrc = qrcode.QRCode(
         version = 2,
         error_correction = qrcode.constants.ERROR_CORRECT_L,
